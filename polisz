@@ -1,0 +1,16 @@
+Zadanko:
+w terminalu użytkownik musi zastępować spacje znakiem "_". Napisz funkcję, która mu pomoże i zamieni wszystkie spacje na _. 
+Użyj string.replace(), pętli while, warunku if _ in string, słówka break and continue
+https://www.pythoncentral.io/pythons-string-replace-method-replacing-python-strings/
+
+Zadanko:
+Napisz funkcję sumującą cyfry z liczby podanej przez użytkownika. Podpowiedź: zamień string na listę intów i użyj sum()
+
+Zadanko:
+Napisz funkcję, która wyszukuje liczby pierwsze w zakresie od (0,n), gdzie n jest podaną liczbą. Użyj % dzielenie modulo
+
+Zadanko:
+Napisz funkcję, która zamieni liczbę dziesiętną na binarną, a następnie policzy ile jedynek maksymalnie przy sobie występuje.
+Przykład
+123 -> '0b1111011'-> [1111,11] -> 4 (bo 4 jedynki obok siebie)
+
