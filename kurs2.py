@@ -20,24 +20,24 @@
 #podatek = int (podatek)
 #napiwek = int (napiwek)
 
-#print ("Koszt koñcowy: ", cena*(1+(napiwek/100)+(podatek/100) ))
+#print ("Koszt koÅ„cowy: ", cena*(1+(napiwek/100)+(podatek/100) ))
 
 
-#4 zabezpieczenia przed b³êdami
-#wiek=input("Podaj swój wiek: ")
+#4 zabezpieczenia przed bÅ‚Ä™dami
+#wiek=input("Podaj swÃ³j wiek: ")
 #try:
 #  wiek=int (wiek)
 #except ValueError:
- # print("B³¹d")
+ # print("BÅ‚Ä…d")
 
 #if wiek<0:
-#  print("B³¹d")
+#  print("BÅ‚Ä…d")
 #elif(wiek>= 0) and (wiek <= 10):
-#  print("Jesteœ dzieckiem")
+#  print("JesteÅ› dzieckiem")
 #elif (wiek>10) and (wiek <=20):
-#  print("Jesteœ nastolatkiem")
+#  print("JesteÅ› nastolatkiem")
 #else:
-#  print("Jesteœ ju¿ du¿y, zapierdalaj do roboty")
+#  print("JesteÅ› juÅ¼ duÅ¼y, zapierdalaj do roboty")
 
 #5 random, sortowanie
 #from random import randint
@@ -54,22 +54,22 @@
 #  if liczba not in lista_liczb:
 #    lista_liczb.append(liczba)
 
-#sorted nie modyfikuje pierwotnej - zwraca now¹
-#sort modyfikuje istniej¹c¹
+#sorted nie modyfikuje pierwotnej - zwraca nowÄ…
+#sort modyfikuje istniejÄ…cÄ…
 
 #print(lista_liczb)
 #print(sorted(lista_liczb))
 #print(lista_liczb[::-1])
 #print(sorted(lista_liczb)[::-1])
 
-#6 s³owniki
+#6 sÅ‚owniki
 #imiona=['Karol', 'Krzysiek', 'Artur', 'Pati']
 #numery=[123456, 123654, 321456, 321654]
 
 #telefoniczna=dict(zip(imiona,numery))
 #print(telefoniczna)
 #for imie, numer in telefoniczna.items():
-#  print(("Imiê: {:10} Numer: {:10}").format(imie,numer))
+#  print(("ImiÄ™: {:10} Numer: {:10}").format(imie,numer))
 
 #7 
 def fibonacci_1(n):
