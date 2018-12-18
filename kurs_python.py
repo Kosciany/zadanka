@@ -5,7 +5,7 @@ liczba=42
 print(liczba)
 liczba="superkurs"
 print(liczba)
-print("tekst",end="\n") #domyœlnie
+print("tekst",end="\n") #domyÅ“lnie
 print("tekst2", end="*\n")
 
 #bool (True/False)
@@ -15,24 +15,24 @@ print("tekst2", end="*\n")
 liczby =list()
 liczby.append(1)
 print(liczby) #drukuje w nawiasie kwadratowym
-liczby=[1,5, 10, 3.2, "mas³o"]
-print(liczby) #drukuje ca³¹ tablicê
+liczby=[1,5, 10, 3.2, "masÂ³o"]
+print(liczby) #drukuje caÂ³Â¹ tablicÃª
 print(liczby[2])
 
 lista2=[1, 2, 3, "xddd"]
 
-liczby.append(lista2) #lista w liœcie
+liczby.append(lista2) #lista w liÅ“cie
 print(liczby)
 
 liczby.extend(lista2) #dodaje listy do siebie <3
 print(liczby)
 
-#s³owniki klucz:wartosc
-s³ownik={"Ko³o":"Robocik","iloœæ":68}
-print(s³ownik["Ko³o"]) #drukuje "Robocik"
-s³ownik["Kolejny"]="Dzia³a"
-print(s³ownik["Kolejny"])
-print(s³ownik)
+#sÂ³owniki klucz:wartosc
+sÂ³ownik={"KoÂ³o":"Robocik","iloÅ“Ã¦":68}
+print(sÂ³ownik["KoÂ³o"]) #drukuje "Robocik"
+sÂ³ownik["Kolejny"]="DziaÂ³a"
+print(sÂ³ownik["Kolejny"])
+print(sÂ³ownik)
 
 #operacje arytmetyczne
 #a/b float a//b int
@@ -47,11 +47,11 @@ print(a%b)
 print(a**b)
 print(a**(1/b)) #pierwiastek a stopnia b
 
-#print(input("Jesteœ spoko :D")) #pobiera dane z konsoli
+#print(input("JesteÅ“ spoko :D")) #pobiera dane z konsoli
 
-#print(input("podaj trzy liczby ").split(",")) # w split #domyœlnie spacja, mo¿na daæ inny znak np ","
+#print(input("podaj trzy liczby ").split(",")) # w split #domyÅ“lnie spacja, moÂ¿na daÃ¦ inny znak np ","
 
-#pêtle
+#pÃªtle
 # while True:
 i=95
 while i<100:
@@ -70,7 +70,7 @@ for i in range(3,6):
 for i in range (0,10,3):#co 3
   print (i)
 
-# pass nic nie rób
+# pass nic nie rÃ³b
 b=10
 if b>10:
   print("B > 10")
@@ -91,8 +91,8 @@ if c>16 or d>10:
 
 
 #def nazwa_funkcji(argumenty):
- # czynnoœci
-  #return mo¿e nie musi
+ # czynnoÅ“ci
+  #return moÂ¿e nie musi
 
 def luz():
   print("chillout")
@@ -111,7 +111,7 @@ print (math.pi)
 print(a)
 print(funkcja())
 
-class Dog: #przy dziedziczeniu DOg(zwierzê)
+class Dog: #przy dziedziczeniu DOg(zwierzÃª)
   species='mammal'
   def __init__(self, name, age):#konstruktor
     self.name=name
